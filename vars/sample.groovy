@@ -1,11 +1,3 @@
-pipeline{
-	agent any
-	stages{
-		stage('Sample')
-		{
-			steps{
-				echo 'This is for checking shared library'
-			}
-		}
-	}
+def call(){
+	echo 'testing for shared library from shared library'
 }
