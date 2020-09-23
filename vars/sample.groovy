@@ -1,3 +1,3 @@
-def call(){
-	echo 'testing for shared library from shared library'
+def call(String name = 'human') {
+    echo "Hello, ${name}."
 }
